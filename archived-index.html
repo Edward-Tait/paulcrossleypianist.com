@@ -106,17 +106,16 @@
         background: #111;
     }
 
-    /* Hero Image */
     .hero-image {
-        width: 100%;
-        height: 70vh;
-        min-height: 500px;
-        max-height: 1000px;
-        background-image: url('unnamed.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+       width: 100%;
+   }
+   
+   .hero-image img {
+       width: 100%;
+       height: auto;
+       display: block;
+       object-fit: contain;
+   }
 
     /* Footer */
     .footer {
@@ -364,8 +363,9 @@
     </nav>
 </header>
 
-<!-- Hero Image -->
-<section class="hero-image"></section>
+<section class="hero-image">
+    <img src="unnamed.png" alt="Hero image">
+</section>
 
 <!-- Footer -->
 <footer class="footer">
