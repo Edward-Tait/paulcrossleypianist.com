@@ -125,14 +125,16 @@ nav a:hover {
 .photo-card {
     background: #555;
     padding: 15px;
+    text-align: center;
 }
 
 .photo-card img {
-    width: 100%;
-    display: block;
-    height: auto;
-    transition: transform 0.3s ease;
+    width: auto;
+    height: 240px;      /* same height for every thumbnail */
+    max-width: 100%;
+    display: inline-block;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .photo-card img:hover {
