@@ -129,10 +129,11 @@ nav a:hover {
 
 .photo-card img {
     width: 100%;
-    display: block;
-    height: auto;
-    transition: transform 0.3s ease;
-    cursor: pointer;
+    height: 660px;
+    object-fit: cover;
+    object-position: center;
+    background: #444;   /* optional, fills any empty space */
+}
 
 .photo-card img:hover {
     transform: scale(1.02);
